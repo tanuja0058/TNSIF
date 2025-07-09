@@ -12,11 +12,12 @@ class ArrayOperations
 		}
 	}
 	
-	//varible argument function
+	//variable argument function
 	
 	public static int getSum(int... n)
 	{
 		int sum=0;
+		
 		for(int no : n)
 			sum +=no;
 		return sum;
